@@ -1,0 +1,3 @@
+[submodule "repo/screensaver.asteroids"]
+	path = repo/screensaver.asteroids
+	url = https://github.com/xbmc4xbox/screensaver.asteroids
