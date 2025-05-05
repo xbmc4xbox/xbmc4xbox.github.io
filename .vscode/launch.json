@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+    "configurations": [
+        {
+            "name": "Python (Debug)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "update_repo.py",
+            "console": "integratedTerminal",
+            "args": []
+        }
+    ]
+}
