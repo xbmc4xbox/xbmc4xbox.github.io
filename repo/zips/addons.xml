@@ -1,0 +1,596 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="repository.xbmc4xbox.org" name="XBMC Add-on repository" version="1.0.0" provider-name="Team XBMC">
+    <extension point="xbmc.addon.repository" name="XBMC Add-on repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/xbmc4xbox/xbmc4xbox.github.io/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/xbmc4xbox/xbmc4xbox.github.io/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/xbmc4xbox/xbmc4xbox.github.io/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Install Add-ons from XBMC.tv</summary>
+        <description lang="en_GB">Download and install add-ons from the Official XBMC.tv add-on repository.[CR]  By using the official Repository you will be able to take advantage of our extensive file mirror service to help get you faster downloads from a region close to you.[CR]  All add-ons on this repository have under gone basic testing, if you find a broken or not working add-on please report it to Team XBMC so we can take any action needed.</description>
+        <disclaimer lang="en_GB">Team XBMC did not make all the add-ons on this repository and are not responsible for their content</disclaimer>
+        <platform>xbox</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="screensaver.asteroids" version="1.0.0" name="Asteroids" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="Asteroids.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Asteroids screensaver</summary>
+    <summary lang="de">Asteroiden Bildschirmschoner</summary>
+    <description lang="en">An old-style screen saver where the asteroids are shot away.</description>
+    <description lang="de">Ein Bildschirmschoner im alten Stil, welcher die Asteroiden davon schießt.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.asteroids</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="screensaver.asterwave" version="1.0.0" name="AsterWave" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="AsterWave.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary>AsterWave screensaver</summary>
+    <description>A field of liquid that deforms realistically to changes in height using actual physics equations.
+
+Asteron: This code is adapted from a project I did for a graphics course in 2000. In beta testing this has garnered a lot of praise and I hope for it to replace cpBlobs as the most popular screensaver.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.asterwave</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-03.jpg</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="screensaver.biogenesis" version="1.0.0" name="BioGenesis" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="BioGenesis.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary>BioGenesis screensaver</summary>
+    <description>An implementation of John Conway's famous "Game of Life" with 3 custom coloring rules. A few basic rules govern which cells will live in the next generation depending on the cells current state and the number of its live neighbors.[CR][CR]Screenshots don't do this much justice as the motion of the system bordering between stability and chaos is what looks interesting.[CR][CR]Features:[CR] - 3 custom coloring rules are implemented each yielding interesting results.[CR] - Colony coloring color cells depending on the color of its 'parent' cells.[CR] - Lifetime coloring colors a cell depending on how long its been alive.[CR] - Neighbor coloring a cell depending on the configuration of its neighbors.[CR] - Many parameters are configurable in the settings.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.biogenesis</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="screensaver.cpblobs" version="1.0.0" name="CpBlobs" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="cpBlobs.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Metaballs moving around</summary>
+    <description lang="en">cpBlobs is a screensaver displaying metaballs moving around inside a cube.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.cpblobs</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-03.jpg</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="screensaver.crystalmorph" version="1.0.0" name="CrystalMorph" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="CrystalMorph.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">CrystalMorph screensaver</summary>
+    <description lang="en">CrystalMorph is a 3D fractal that smoothly morphs between various shapes and configurations. A fractal's shape is defined by a set of transformations and (for a true fractal) the entire shape is repeated infinite times within it. Of course since the xbox doesn't have infinite memory, the rendering bottoms out after about 5 recursions.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.crystalmorph</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="screensaver.drempels" version="1.0.0" name="Drempels" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="Drempels.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <platform>xbox</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/xbmc4xbox/screensaver.drempels</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-03.jpg</screenshot>
+      <screenshot>resources/screenshot-04.jpg</screenshot>
+      <screenshot>resources/screenshot-05.jpg</screenshot>
+      <screenshot>resources/screenshot-06.jpg</screenshot>
+    </assets>
+    <summary lang="da_DK">Hallucinerende desktopforstærker</summary>
+    <summary lang="de_DE">Halluzinatorischer Desktop-Enhancer</summary>
+    <summary lang="en_GB">Hallucinatory desktop enhancer</summary>
+    <summary lang="es_ES">Potenciador de escritorio alucinatorio</summary>
+    <summary lang="he_IL">משפר הזיות בשולחן עבודה</summary>
+    <summary lang="zh_CN">幻觉桌面增强器</summary>
+    <description lang="da_DK">En hallucinerende desktopforstærker - væk dit tapet til live med yndefulde, hvirvlende billeder. Kører smukt som animeret tapet eller som en pauseskærm.</description>
+    <description lang="de_DE">Ein halluzinatorischer Desktop-Enhancer – erweckt das Hintergrundbild mit anmutigen, wirbelnden Motiven zum Leben. Läuft wunderbar als animierter Bildschirmhintergrund oder als Bildschirmschoner.</description>
+    <description lang="en_GB">A hallucinatory desktop enhancer - bring your wallpaper to life with graceful, swirling imagery. Runs beautifully as animated wallpaper, or as a screensaver.</description>
+    <description lang="es_ES">Un alucinante potenciador de escritorio: dé vida a su fondo de pantalla con imágenes elegantes y arremolinadas. Funciona perfectamente como fondo de pantalla animado o como salvapantallas.</description>
+    <description lang="he_IL">משפר הזיות בשולחן העבודה - מעורר את רקע המחשב שלך לחיים עם תמונות יפהפהיות מסתובבות. זמין כרקע מונפש או כשומר מסך.</description>
+    <description lang="zh_CN">幻觉桌面增强器 - 以优雅、旋转的图像将您的壁纸带入生活。作为动画墙纸或屏幕保护程序运行良好。</description>
+    <disclaimer lang="en_GB">This is an implementation based on original Drempels screensaver</disclaimer>
+  </extension>
+</addon><addon id="screensaver.greynetic" version="1.0.0" name="Greynetic" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="GreyNetic.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Draw random color rectangles</summary>
+    <description lang="en">Colored and transparent rectangles.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.greynetic</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="screensaver.matrixtrails" version="1.0.0" name="Matrix trails" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="MatrixTrails.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">Matrix Regen Bildschirmschoner</summary>
+    <summary lang="en_GB">Matrix trails screensaver</summary>
+    <description lang="de_DE">Der "digitale Regen" Effekt, wie er auf den Computermonitoren in "Matrix" zu sehen ist.</description>
+    <description lang="en_GB">The "digital rain" effect, as seen on the computer monitors in "The Matrix".</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.matrixtrails</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="screensaver.pingpong" version="1.0.0" name="Ping Pong" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="PingPong.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Ping Pong screensaver</summary>
+    <description>Lets a ball jump back and forth.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.pingpong</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="screensaver.planestate" version="1.0.0" name="Ping Pong" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="Planestate.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Planestate screensaver</summary>
+    <description>Planestate screensaver.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.planestate</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="screensaver.pmblobs" version="1.0.0" name="PmBlobs" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="cpBlobs.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Metaballs moving around</summary>
+    <description lang="en">pmBlobs is a screensaver displaying metaballs moving around inside a cube.</description>
+    <disclaimer lang="en">Same as cpBlobs, just with different textures.</disclaimer>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.pmblobs</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-03.jpg</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="screensaver.pyro" version="1.0.0" name="Pyro" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="Pyro.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pyro screensaver</summary>
+    <description>The pyro screensaver simulates fireworks</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.pyro</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/fanart.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="screensaver.shadeworm" version="1.0.0" name="Shadeworm" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="ShadeWorm.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Shadeworm screensaverr</summary>
+    <description>Shadeworm screensaver.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.shadeworm</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="screensaver.stars" version="1.0.0" name="Stars" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.ui.screensaver" library_xbox="Stars.xbs" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Stars screensaver</summary>
+    <description>A screensaver that lets you fly through the stars.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0-or-later</license>
+    <source>https://github.com/xbmc4xbox/screensaver.stars</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="visualization.g-force" version="1.0.0" name="G-Force" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.player.musicviz" library_xbox="g-force.vis" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">G-Force visualizer</summary>
+    <description lang="en">G-Force visualizer.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/visualization.g-force</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="visualization.goom" version="1.0.0" name="Goom" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.player.musicviz" library_xbox="Goom.vis" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">Goom 2k4 Visualisierung</summary>
+    <summary lang="en_GB">Goom 2k4 Visualization</summary>
+    <description lang="de_DE">Die Goom 2k4-Visualisierung unterstützt Effekte wie Tentakel, Blitz, Sterne, Feuerwerk, Wellen, Unschärfen und Glühen und enthält eine große Anzahl trippiger hypnotischer Effekte, die mit der Musik tanzen, wirbeln und knallen.</description>
+    <description lang="en_GB">The Goom 2k4 visualization supports effects like Tentacles, Flash, Stars, Fireworks, Waves, Blurs and Glows and includes a large number of trippy hypnotic effects that dance, swirl and pop with the music,</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/visualization.goom</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-03.jpg</screenshot>
+      <screenshot>resources/screenshot-04.jpg</screenshot>
+      <screenshot>resources/screenshot-05.jpg</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="visualization.milkdrop" version="1.0.0" name="MilkDrop" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.player.musicviz" library_xbox="MilkDrop.vis" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="af_ZA">MilkDrop laat jou sweef deur die klankgolwe wat jy hoor</summary>
+    <summary lang="ar_SA">يحلق بك MilkDrop فوق الموجات الصوتية اللتي تسمع</summary>
+    <summary lang="be_BY">MilkDrop takes you flying through the soundwaves you're hearing</summary>
+    <summary lang="bg_BG">"MilkDrop" ще Ви отведе на пътешествие между звуковите вълни, които чувате</summary>
+    <summary lang="ca_ES">MilkDrop et porta volant a través de les ones de so que escoltes</summary>
+    <summary lang="cs_CZ">MilkDrop s Vámi proletí skrz zvukové vlny, které slyšíte</summary>
+    <summary lang="cy_GB">Mae MilkDrop yn eich hedeg drwy'r tannau sain rydych yn eu clywed</summary>
+    <summary lang="da_DK">Milkdrop tager dig på en flyvetur gennem lydbølgerne, du lytter til</summary>
+    <summary lang="de_DE">MilkDrop nimmt dich mit auf einen Flug durch deine Musik.</summary>
+    <summary lang="el_GR">Το MilkDrop σας ταξιδεύει μέσα στα ηχητικά κύματα που ακούτε</summary>
+    <summary lang="en_GB">MilkDrop takes you flying through the soundwaves you're hearing</summary>
+    <summary lang="en_AU">MilkDrop takes you flying through the soundwaves you're hearing</summary>
+    <summary lang="en_NZ">MilkDrop takes you flying through the soundwaves you're hearing</summary>
+    <summary lang="en_US">MilkDrop takes you flying through the soundwaves you're hearing</summary>
+    <summary lang="es_ES">MilkDrop te lleva volando a través de las ondas que estás escuchando</summary>
+    <summary lang="es_AR">MilkDrop te lleva volando a través de las ondas que estás escuchando</summary>
+    <summary lang="es_MX">MilkDrop the lleva volando a través de las ondas de sonido que estás escuchando</summary>
+    <summary lang="et_EE">MilkDrop viib sind lennates läbi kullatavate helilainete</summary>
+    <summary lang="fi_FI">MilkDrop lennättää sinut ääniaaltojen läpi</summary>
+    <summary lang="fr_FR">MilkDrop vous fait voyager dans les ondes sonores de votre musique</summary>
+    <summary lang="fr_CA">MilkDrop vous fait voler au travers des ondes sonores que vous entendez</summary>
+    <summary lang="gl_ES">MilkDrop lévate voando a través da ondas de son que esta a ouvir</summary>
+    <summary lang="he_IL">MilkDrop לוקח אותך לתעופה דרך גלי הסאונד שאתה שומע</summary>
+    <summary lang="hr_HR">MilkDrop vam omogućuje let kroz zvuk koji čujete</summary>
+    <summary lang="hu_HU">A Milkdrop végigrepít a zene hullámain</summary>
+    <summary lang="id_ID">MilkDrop membawa anda terbang melalui gelombang suara yang anda dengarkan</summary>
+    <summary lang="is_IS">Með MilkDrop flýgurðu í gegnum hljóðbylgjurnar sem þú heyrir</summary>
+    <summary lang="it_IT">MilkDrop ti fa volare tra le onde sonore di ciò che stai ascoltando</summary>
+    <summary lang="ja_JP">MilkDrop - 音楽の波の上を飛ぶ</summary>
+    <summary lang="ko_KR">MilkDrop은 사운드웨이브 속으로 날아가는듯한 효과를 보여줍니다.</summary>
+    <summary lang="lt_LT">MilkDrop nukelia Jus i nuostabu skrydi virs debesu, istiesu fantastisku garsu gausa</summary>
+    <summary lang="lv_LV">MilkDrop paņem Jūs līdzi lidojumā cauri skaņu viļņiem, kurus dzirdat</summary>
+    <summary lang="mk_MK">MilkDrop ве прелетува преку брановите на музиката која ја слушате</summary>
+    <summary lang="nl_NL">Met MilkDrop vliegt u mee door de geluidsgolven die je hoort</summary>
+    <summary lang="nb_NO">MilkDrop tar deg med på en flyreise gjennom lydbølgene du hører</summary>
+    <summary lang="pl_PL">MilkDrop zabiera Cię w niesamowity lot w chmurach aktualnie słuchanych dźwięków</summary>
+    <summary lang="pt_PT">O MilkDrop leva-o num voo através das ondas sonoras que está a ouvir</summary>
+    <summary lang="pt_BR">O MilkDrop leva você para voar nas ondas sonoras que está ouvindo</summary>
+    <summary lang="ro_RO">MilkDrop vă face să zburați printre undele audio pe care le auziți</summary>
+    <summary lang="ru_RU">Milkdrop отправит вас в полёт через звуковые волны, которые вы слышите</summary>
+    <summary lang="sk_SK">MilkDrop s Vami poletí zvukovými vlnami, ktoré počúvate</summary>
+    <summary lang="sl_SI">MilkDrop vas popelje skozi zvočne valove, ki jih poslušate</summary>
+    <summary lang="sq_AL">MilkDrop të bën të fluturosh nëpër valet të tingullit që e dëgjonë</summary>
+    <summary lang="sv_SE">Milkdrop för dig flygande genom de ljudvågor du hör.</summary>
+    <summary lang="ta_IN">MilkDrop நீங்கள் கேட்கும் ஒலி அலைகளின் வடிவங்களின் மூலம் பறக்க செய்யும்</summary>
+    <summary lang="tg_tj">MilkDrop бо мавҷҳои садояш фораму роҳатбахш аст</summary>
+    <summary lang="th_TH">MilkDrop นำคุณโบยบิน ผ่านคลื่นเสียงที่คุณกำลังรับฟัง</summary>
+    <summary lang="tr_TR">MilkDrop sizi duymakta olduğunuz ses dalgalarının içine çeker</summary>
+    <summary lang="uk_UA">MilkDrop забере вас в політ крізь хвилі музики яку ви слухаєте</summary>
+    <summary lang="vi_VN">MilkDrop giúp bạn bay bổng trong âm thanh bạn đang nghe</summary>
+    <summary lang="zh_CN">MilkDrop 带你与声波一起飞翔</summary>
+    <summary lang="zh_TW">MilkDrop帶您穿越聆聽中的音樂饗宴</summary>
+    <description lang="af_ZA">MilkDrop was oorspronklik 'n musiek visualisering "plug-in" vir die Winamp musiek speler. Soos jy na jou musiek luister, laat MilkDrop jou deur die klankgolwe sweef wat jy hoor, en gebruik klop waarnemings om 'n magdom psigedeliese effekte te aktiveer, en 'n visuele reis deur klank te skep.</description>
+    <description lang="ar_SA">ميلك دروب كان أصلا عارض موسيقى لمشغل الموسيقى وين امب. عندما تستمع لموسيقاك, كيلك دروب يطير بك خلال موجات صوتية تسمعا حيقيةً, ,و يستخدم كشف الوقع الموسيقي ليؤدي إلى تأثيرات كثيرة, منشئاً رجلة صوت مرئية قيمة.</description>
+    <description lang="be_BY">MilkDrop was originally a music visualizer "plug-in" to the Winamp music player. As you listen to your music, MilkDrop takes you flying through the actual soundwaves you're hearing, and uses beat detection to trigger myriad psychedelic effects, creating a rich visual journey through sound.</description>
+    <description lang="bg_BG">Първоначално "MilkDrop" е замислена като приставка за музикалния плеър Winamp. Докато слушате музикалната си колекция "MilkDrop" ще Ви накара да "полетите", измежду звуковите вълни, които чувате. Ползва ритъма за да създаде безброй еуфорични ефекти. Така създава едно богато визуално пътешествие в звука.</description>
+    <description lang="ca_ES">El MilkDrop era originalment un afegitó de visualització musical pel reproductor Winamp. Mentre escoltes la música MilkDrop et porta volant a través de les ones de so que estàs escoltant al moment, i utilitza detecció de tempo per activar una munió d'efectes psicodèlics i crea un enriquidor viatge visual a través del so.</description>
+    <description lang="cs_CZ">MikDrop bylo původně vizualizační rozšíření pro přehrávač hudby Winamp. Při poslechu vaší hudby s Vámi MikDrop prolétá skrze zvukové vlny, které slyšíte, a používá detekci taktů, pro spuštění spousty psychedelických efektů, vytvářejíce tak zajímavou vizuální cestu skrze zvuk.</description>
+    <description lang="cy_GB">Roedd MilkDrop yn wreiddiol yn "ategyn" delweddu cerddoriaeth ar gyfer Winamp. Wrth i chi wrando ar MilkDrop mae MilkDrop yn eich hedeg drwy'r tonnau sain rydych yn eu clywed gan ddefnyddio canfodydd trawiad i gychwyn effeithiau seicadelig amrywiol gan greu taith weledol cyfoethog drwy'r sain.</description>
+    <description lang="da_DK">Milkdrop var oprindeligt et musikvisualisering "plug-in" til Winamp musikafspilleren. Mens du lytter til din musik, tager Milkdrop dig på en flyvetur gennem de faktiske lydbølger du hører og bruger beat-genkendelse til at udløse en myriade af psykedeliske effekter, der skaber en visuel rejse gennem lyd.</description>
+    <description lang="de_DE">MilkDrop war ursprünglich ein Musik-Visualizer "Plug-in" für den Musik-Player Winamp.Wenn Sie Ihre Musik hören, fliegen Sie mit MilkDrop durch die aktuellen Klangwellen die Sie hören. Und die Beat-Erkennung wird genutzt um unzählige psychedelische Effekte auslösen, die Schaffung einer visuellen Reise durch den Klang.</description>
+    <description lang="el_GR">Το MilkDrop ήταν αρχικά ένα "plug-in" μουσικών οπτικοποιήσεων του Winamp. Καθώς παίζετε τη μουσική σας, το MilkDrop σας ταξιδεύει μέσα στα πραγματικά ηχητικά κύματα που ακούτε, και χρησιμοποιεί ανίχνευση ρυθμού για να ενεργοποιήσει ένα πλήθος ψυχεδελικών εφέ, δημιουργώντας ένα πλούσιο οπτικό ταξίδι μέσα στον ήχο.</description>
+    <description lang="en_GB">MilkDrop was originally a music visualiser "plug-in" to the Winamp music player. As you listen to your music, MilkDrop takes you flying through the actual soundwaves you're hearing, and uses beat detection to trigger myriad psychedelic effects, creating a rich visual journey through sound.</description>
+    <description lang="en_AU">MilkDrop was originally a music visualiser "plug-in" to the Winamp music player. As you listen to your music, MilkDrop takes you flying through the actual soundwaves you're hearing, and uses beat detection to trigger a myriad of psychedelic effects, creating a rich visual journey through sound.</description>
+    <description lang="en_US">MilkDrop was originally a music visualizer "plug-in" to the Winamp music player. As you listen to your music, MilkDrop takes you flying through the actual soundwaves you're hearing, and uses beat detection to trigger myriad psychedelic effects, creating a rich visual journey through sound.</description>
+    <description lang="es_ES">MilkDrop era originalmente un plug-in visualizador de música para Winamp. Mientras escuchas música, MilkDrop te lleva volando a través de las ondas que estás escuchando, y utiliza la detección del ritmo para activar una gran cantidad de efectos psicodélicos, creando una rica experiencia visual a través del sonido.</description>
+    <description lang="es_AR">MilkDrop era originalmente un plug-in visualizador de música para Winamp. Mientras escuchas música, MilkDrop te lleva volando a través de las ondas que estás escuchando, y utiliza la detección del ritmo para activar una gran cantidad de efectos psicodélicos, creando una rica experiencia visual a través del sonido.</description>
+    <description lang="es_MX">MilkDrop originalmente fue un "plug-in" visualizador de música para el reproductor de música Winamp. Mientras escuchas tu músuca, MilkDrop te lleva volando a través de las ondas de sonido que estás escuchando en ese momento, y usa detección de ritmo para desencadenar múltiples efectos psicodélicos, creando un rico recorrido visual a través del sonido.</description>
+    <description lang="et_EE">MilkDrop oli algselt muusika visuaal plugin Winamp'ile. Muusikat kuulates viib MilkDrop sind lennates läbi kuulatavate helilainete. MilkDrop kasutab rütmituvastust, et päästa valla tohutu hulk psühhedeelseid efekte luues visuaalidest rikka teekonna läbi heli.</description>
+    <description lang="fi_FI">MilkDrop oli alunperin Winampin visualisaattorilisäosa. Kuunnellessasi musiikkia MilkDrop lennättää sinut kuulemiesi ääniaaltojen läpi ja käyttää tahdintunnistusta lukemattomien psykedeelisten tehosteiden toistamiseen, luoden visuaalisen matkan musiikin läpi.</description>
+    <description lang="fr_FR">MilkDrop était à l'origine une extension de visualisation musicale pour le lecteur audio Winamp. Pendant que vous écoutez votre musique, Milkdrop vous fait voyager à travers les ondes sonores que vous entendez, détectant le rythme pour déclencher une myriade d'effets psychédéliques, créant ainsi une riche expérience visuelle et sonore.</description>
+    <description lang="fr_CA">MilkDrop était à l'origine un plugiciel de visualisation musicale pour le lecteur audio Winamp. Alors que vous écoutez votre musique, Milkdrop vous fait voler au travers des ondes sonores, et utilise la détection rythmique pour déclencher une myriade d'effets psychédéliques, créant un voyage visuel et sonore.</description>
+    <description lang="gl_ES">MilkDrop foi orixinalmente un plugin de Visualización para múica do reprodutor de música Winamp. Nametres vostede escoita a súa música, MilkDrop lévao voando a través das ondas de son que esta a ouvir, e emprega a detección de ritmo para activar milleiros de efectos psicodélicos, creando unha rica viaxe visual a través do son.</description>
+    <description lang="he_IL">MilkDrop was originally a music visualizer "plug-in" to the Winamp music player. As you listen to your music, MilkDrop takes you flying through the actual soundwaves you're hearing, and uses beat detection to trigger myriad psychedelic effects, creating a rich visual journey through sound.</description>
+    <description lang="hr_HR">MilkDrop je orginalno bio zamišljen kao "dodatak" za Winamp glazbeni svirač. Dok slušate svoju glazbu, MilkDrop vam omogućuje let kroz zvuk koji čujete i koristi otkrivanje taktova da bi pokrenuo bezbroj psihodeličnih efekata, tako stvarajući bogato vizualno  zvučno putovanje.</description>
+    <description lang="hu_HU">A Milkdrop eredetileg egy beépülőmodul volt a Winamp zenelejátszóhoz. Ahogy hallgatod a zenét, a Milkdrop keresztülrepít a hallható hanghullámokon, felhasználva a dobritmust pszihedelikus effektusok létrehozására gazdag látványvilág megteremtésével.</description>
+    <description lang="id_ID">MilkDrop awalnya adalah pengaya visualisasi musik untuk Winamp. Sembari mendengarkan musik, MilkDrop akan membawa Anda terbang melalui gelombang suara yang Anda dengarkan, dan menggunakan deteksi ketukan untuk menampikan banyak sekali efek psikedelik, menciptakan suatu perjalanan visual yang kaya melalui suara.</description>
+    <description lang="is_IS">Milkdrop var upprunalega viðbót við Winamp tónlistarspilarann. Þegar þú hlustar á tónlistina, fer Milkdrop með þig á flug í gegnum hljóðbylgjurnar sem þú heyrir og notar taktskynjun til að setja af stað allskonar effekta sem skapa myndrænt ferðalag í gegnum tónlistarupplifunina</description>
+    <description lang="it_IT">MilkDrop era, in origine, un "plug-in" di visualizzazione per Winamp. Mentre ascolti la musica, MilkDrop ti fa volare tra le onde sonore di ciò che stai ascoltando usando la rilevazione del ritmo per sincronizzare una miriade di effetti psichedelici, creando un ricco viaggio visuale attraverso il suono.</description>
+    <description lang="ja_JP">MilkDrop は元々 Winamp 音楽プレーヤーのビジュアライザープラグインでした。音楽を再生すると、音楽にあわせた波の上を飛んでいるような視覚効果が現れ、ビート検出により無数のサイケデリックな効果が生まれ、音による視覚的体験を生み出します。</description>
+    <description lang="ko_KR">MilkDrop는 원래 윈앰프의 음악 시각화 플러그인입니다. 음악을 들으면서 사운드 웨이브로 날아가는듯한 효과를 보여주며 비트 감지를 해서 다양한 싸이키데릭한 효과를 만들어 풍부한 시각적 경험을 하게합니다.</description>
+    <description lang="lt_LT">MilkDrop vizualizacija, gauta is Winamp. Klausantis muzikos, MilkDrop nukelia jus i nuostabu skrydi virs debesu, naudojamas ritmo aptikimas, kuris sinchronizuoja muzikos vaizdo efektus.</description>
+    <description lang="lv_LV">MilkDrop sākotnēji bija mūzikas vizualizācijas "spraudnis" Winamp mūzikas atskaņotājā. Kamēr tu klausies mūziku, MilkDrop paņem tevi līdz lidojumā cauri skaņas viļņiem, kuri skan, un izmanto ritma noteikšanu, lai palaistu myriad psihodēliskos efektus, radot bagātu vizuālo ceļojumu cauri skaņai.</description>
+    <description lang="mk_MK">MilkDrop беше визуализација допонување на Winamp music player. Како што ја слушате музиката, MilkDrop ве прелетува преку актуелните музички бранови, и користи детекција на битот за да покрене myriad психоделични ефекти, креирајќи богато визуелно патување низ звукот.</description>
+    <description lang="nl_NL">Milkdrop was oorspronkelijk een muziekvisualisatieplug-in voor de Winamp-muziekspeler. Terwijl u uw muziek beluistert vliegt Milkdrop u door de soundwaves die u op dat moment hoort. Op basis van de beat produceert het een veelvoud aan psychedelische effecten.</description>
+    <description lang="nb_NO">MilkDrop var originalt et visualiseringstillegg til musikkavspilleren Winamp. Mens du lytter til musikken din, tar MilkDrop deg med på en reise gjennom de faktiske lydbølgene du hører. Visualiseringen oppdager takten i musikken og bruker denne for å skape en rik, visuell ferd gjennom utallige, psykedeliske effekter.</description>
+    <description lang="pl_PL">MilkDrop jest wizualizacją pochodzącą z odtwarzacza Winamp. W czasie słuchania muzyki, MilkDrop zabiera użytkownika w niesamowity lot pomiędzy aktualnie odtwarzanymi falami dźwiękowymi, używając detekcji beatu, która synchronizuje efekty wizualne z muzyką.</description>
+    <description lang="pt_PT">Originalmente, o MilkDrop era uma visualização do leitor de música Winamp. Ao ouvir a sua música, o MilkDrop leva-o a voar pelas ondas sonoras que está a ouvir, detectando o ritmo da música e desencadeando uma variedade de efeitos psicadélicos. Cria, assim, uma viagem inesquecível pelo som.</description>
+    <description lang="pt_BR">MilkDrop era originalmente uma visualização do reprodutor de música Winamp. Ao ouvir a sua música, o MilkDrop leva-o a voar nas ondas sonoras que está a ouvir, usando detecção de batida para desencadear uma miríade de efeitos psicodélicos. Cria, assim, uma viagem visual inesquecível pelo som.</description>
+    <description lang="ro_RO">MilkDrop a fost original un „modul” de vizualizare pentru lectorul de muzică Winamp. În timp ce ascultați muzica, MilkDrop vă face să zburați printre undele audio actuale pe care le auziți și folosește detecția bătăii pentru a activa miriada de efecte psihedelice, creând o călătorie vizuală bogată printre sunete.</description>
+    <description lang="ru_RU">MilkDrop изначально был модулем визуализации музыки для проигрывателя Winamp. Когда вы слушаете музыку, MilkDrop создает визуальное ощущение полёта по звуковым волнам, а также использует обнаружение ритма для активации множества психоделических эффектов.</description>
+    <description lang="sk_SK">MilkDrop bol pôvodne hudobným vizualizačným rozšírením Winamp prehrávača. Pri počúvaní hudby s Vami MilkDrop letí zvukovými vlnami, ktoré počúvate a použitím detekcie rytmu spúšťa nespočetné psychodelické efekty, a vytvára bohatú vizuálnu cestu zvukom.</description>
+    <description lang="sl_SI">MilkDrop je bila prvotno vizualizacija za predvajalnik Winamp. Ko poslušate vašo glasbo, vas MilkDrop popelje skozi dejansko valovanje, ki ga slišite, in uporablja zaznavanje ritma, kar omogoči psihedelični efekt in bogato vizualno izkušnjo predvajanja glasbe.</description>
+    <description lang="sq_AL">Milkrop fillimisht ishte një "plug-in" për vizualizimin e muzikës për riprodhuesin Winamp. Ndërsa dëgjonë muzikën tënde, Milkdrop vizualizon valët që i dëgjon dhe përdor zbulimin e tingullit për efekte të ndryshme.</description>
+    <description lang="sv_SE">Milkdrop var ursprungligen ett visualiserarande ljudplug-in till Winamp. Medan du lyssnar på din musik så för dig Milkdrop flygande genom de ljudvågor du hör och använder rytmavkänning för att ge dig psykedeliska effekter som skapar en mäktig visuell resa via ljudet.</description>
+    <description lang="ta_IN">MilkDrop முதலில் Winamp இசை வாசிபானுடைய ஒரு இசை விசுவலைஸர் "செருகுநிரல்"ஆகும். நீங்கள் இசை கேட்டுக்கொண்டு இருக்குபோது, MilkDrop ஆனது உங்களை ஒலி அலைகளின் அமைப்புகேர்ப்ப உங்களை பறக்க செய்யும், மேலும் இசை துடிப்புகேர்ப்ப எண்ணற்ற சைக்டெலிக் விளைவுகளை உண்டாக்கும், ஒலி மூலம் ஒரு மறக்கமுடியாத காட்சி பயணம் உருவாக்கும்.</description>
+    <description lang="tg_tj">MilkDrop аз ибтидо плагини таҷассуми мусиқие барои плеери мусиқии Winamp буд. Вақте ки шумо мусиқиро мешунавед, MilkDrop бо мавҷҳои садояш фораму роҳатбахш аст, ва муайянкуни битҳои мусиқиро барои эҷоди таъсирҳои девонагӣ истифода мекунад ва шуморо ба сайёҳии мусиқӣ мебарад.</description>
+    <description lang="th_TH">MilkDrop แต่เดิมเป็น "ปลั๊ก-อิน" การแสดงแสงสีประกอบเพลง ของโปรแกรมเล่นเพลง Winamp.  ในขณะที่คุณฟังเพลงของคุณ, MilkDrop นำคุณบินผ่านคลื่นเสียงที่เกิดขึ้นตามที่คุณได้ยิน, และใช้การจับจังหวะ ในการส่งผลต่อเอฟเฟคภาพลวงตา อันหลากหลาย, สร้างภาพอันตื่นตาในการเดินทางไปตามเสียงเพลง.</description>
+    <description lang="tr_TR">MilkDrop aslında Winamp müzik çalıcısı için görsel bir "eklenti" dir. Müziğinizi dinlerken, Milkdrop size işittiğiniz ses dalgaları arasında uçuyormuşcasına bir his ve ritm algılayıcısı ile de en çılgın efektleri yaşıyormuşçasına görsel bir şölen sunar.</description>
+    <description lang="uk_UA">MilkDrop спочатку був додатком візуалізації музики для програвача музики Winamp. MilkDrop створює багату гаму візуалізації музики, використовуючи власний механізм визначення музичних тактів.</description>
+    <description lang="vi_VN">MilkDrop ban đầu là một "plug-in" trình diễn nhạc cho Winamp. Khi bạn nghe nhạc, MilkDrop sẽ làm bạn bay bổng trong âm thanh bạn đang nghe, và sử dụng bộ dò giai điệu để kích hoạt vô số những hiệu ứng ảo, tạo ra một cuộc hành trình âm thanh qua mắt thường</description>
+    <description lang="zh_CN">MilkDrop 是来自于 Winamp 音乐播放器的可视化效果插件。在你听音乐时，MilkDrop 通过节拍检测触发的无数迷幻的效果，带你与声波一起飞翔，给你带来丰富的音乐和视觉旅程。</description>
+    <description lang="zh_TW">MilkDrop是來自於Winamp音樂播放器的視覺效果插件。在您在聽音樂時，MilkDrop通過節奏偵測觸發的無數夢幻的效果，帶您穿越聆聽中的音樂饗宴，也給您帶來豐富的聲音和視覺效果的奇幻旅程。</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/visualization.milkdrop</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-03.jpg</screenshot>
+      <screenshot>resources/screenshot-04.jpg</screenshot>
+      <screenshot>resources/screenshot-05.jpg</screenshot>
+      <screenshot>resources/screenshot-06.jpg</screenshot>
+    </assets>
+  </extension>
+</addon><addon id="visualization.waveform" version="1.0.0" name="Waveform" provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1" />
+  </requires>
+  <extension point="xbmc.player.musicviz" library_xbox="Waveform.vis" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="af">Visualisering wat 2 golfvorm grafieke op die skerm vertoon</summary>
+    <summary lang="ar">التصوير يظهر2 رسم بياني موجي على الشاشة</summary>
+    <summary lang="be">Візуалізацыя што паказвае 2 графікі сыгналу на экране</summary>
+    <summary lang="bg">Визуализация представяща две осцилиращи вълни</summary>
+    <summary lang="ca">Visualització que mostra 2 gràfics en forma d'ona a la pantalla</summary>
+    <summary lang="cs">Vizualizace zobrazující 2 grafy průběhu vlny na obrazovce</summary>
+    <summary lang="cy">Delweddu'n dangos 2 Graff Ffurf Ton ar y sgrin</summary>
+    <summary lang="da">Visualisering der viser 2 bølgeagtige grafer på skærmen</summary>
+    <summary lang="de">Eine Visualisierung, die zwei wellenförmige Grafiken auf dem Bildschirm zeigt</summary>
+    <summary lang="el">Οπτικοποίηση που εμφανίζει 2 Κυματομορφές στην οθόνη</summary>
+    <summary lang="en">Visualisation showing 2 Waveform Graphs on the screen</summary>
+    <summary lang="en_AU">Visualisation showing 2 Waveform Graphs on the screen</summary>
+    <summary lang="en_NZ">Visualisation showing 2 Waveform Graphs on the screen</summary>
+    <summary lang="en_US">Visualization showing 2 Waveform Graphs on the screen</summary>
+    <summary lang="es">Visualización mostrando 2 gráficos de ondas en la pantalla</summary>
+    <summary lang="es_AR">Visualización mostrando 2 gráficos de ondas en la pantalla</summary>
+    <summary lang="es_MX">Visualización que muestra 2 Gráficos de Forma de onda</summary>
+    <summary lang="et">Visuaal, mis näitab ekraanil kahte signaalikujulist graafikut</summary>
+    <summary lang="fi">Kaksi aaltomuotograafia</summary>
+    <summary lang="fr">Visualisation affichant 2 graphiques de forme d'onde à l'écran</summary>
+    <summary lang="fr_CA">Visualisation affichant 2 graphiques de forme d'onde à l'écran</summary>
+    <summary lang="gl">Visualización amosando 2 gráficos en forma de onde na pantalla</summary>
+    <summary lang="he">חיזוי אשר מציג 2 גרפיים בצורת גל על המסך</summary>
+    <summary lang="hr">Vizualizacija koja prikazuje 2 valna grafikona</summary>
+    <summary lang="hu">Vizualizáció két hullámformával</summary>
+    <summary lang="id">Visualisasi menampilkan dua grafik gelombang pada layar</summary>
+    <summary lang="it">Visualizzatore che mostra 2 grafici di forma d'onda sullo schermo</summary>
+    <summary lang="ja">画面に2波形グラフを表示するビジュアライザー</summary>
+    <summary lang="ko">두개의 웨이브폼을 보여주는 음악시각화</summary>
+    <summary lang="lt">Vizualizacija kuri parodo dvi garso bangas</summary>
+    <summary lang="lv">Vizualizācija, kas attēlo 2 viļņveida grafikus uz ekrāna</summary>
+    <summary lang="mk">Визуализација која покажува 2 брана на екранот</summary>
+    <summary lang="ms">Visual di skrin menunjukkan 2 graf gelombang</summary>
+    <summary lang="nl">Visualisatie die twee grafieken in golfvorm weergeeft</summary>
+    <summary lang="no">Visualisering som viser to bølgeformede grafer på skjermen</summary>
+    <summary lang="pl">Wizualizacja pokazująca dwie fale dźwięku</summary>
+    <summary lang="pt">Visualização que mostra 2 gráficos ondulantes no ecrã</summary>
+    <summary lang="pt_BR">Visualização que mostra 2 gráficos ondulantes</summary>
+    <summary lang="ro">Vizualizare care arată 2 grafice Waveform pe ecran</summary>
+    <summary lang="ru">Визуализация, показывающая  на экране 2 волновых графика</summary>
+    <summary lang="se">Visualisering som visar 2 vågformsgrafer på skärmen</summary>
+    <summary lang="sk">Vizualizácia zobrazujúca 2 grafy priebehu signálu</summary>
+    <summary lang="sl">Vizualizacija zvoka z dvema valovnima oblikama</summary>
+    <summary lang="sq">Vizualizim që shfaq 2 Grafikë Valëzues në ekran</summary>
+    <summary lang="sr">Визуелизација која приказује два таласна облика на екрану</summary>
+    <summary lang="sv">Visualisering som visar 2 vågformgrafer på skärmen</summary>
+    <summary lang="ta_IN">திரையில் 2 அலைவடிவம் வரைபடங்கள் காட்டும் காட்சி</summary>
+    <summary lang="tg">Визуализатсия бо намоиши 2 нақши мавҷшакл дар экран</summary>
+    <summary lang="th">กำลังแสดงผลภาพเวอร์ชวลไลเซชั่น 'Waveform' เป็น 2  กราฟสัญญาณบนหน้าจอ</summary>
+    <summary lang="tr">2 Dalga Grafiğini ekranda gösteren görsel öğe</summary>
+    <summary lang="uk">Візуалізація показує на екрані 2 лінії, що змінюються в такт з музикою.</summary>
+    <summary lang="vi">Trình diễn đồ họa 2 đường sóng lên màn hình</summary>
+    <summary lang="zh">在屏幕上显示两个波形图的可视化效果</summary>
+    <summary lang="zh_TW">在屏幕上顯示2波形圖的視覺效果</summary>
+    <description lang="af">Golfvorm is 'n eenvoudige visualisering wat 2 golfvorm grafieke op die skerm vertoon, een elk vir Linker en Regter kanale wat beweeg op die maat van die musiek.</description>
+    <description lang="ar">التشكيل الموجي هو تصوير بسيط يظهر2 رسم بياني موجي على الشاشة, واحد لقنوات اليسار و اليمين التر تتحرك على وقع الموسيقى</description>
+    <description lang="be">Waveform is a simple Visualization showing 2 Waveform Graphs on the screen, One each for Left and Right channels that move to the beat of the music</description>
+    <description lang="bg">Waveform представя графика на две осцилиращи вълни на екрана, по една за всеки канал (ляв и десен), който реагират на ритъма на музиката.</description>
+    <description lang="ca">Waveform és una visualització molt simple que mostra 2 gràfics en forma d'ona a la pantalla, un per a cada un dels canals, esquerre i dret, que es mouen al ritme de la música.</description>
+    <description lang="cs">Průběh vlny je jednoduchá vizualizace zobrazující 2 grafy průběhu vlny na obrazovce, které znázorňují levý a pravý kanál a pohybují se v rytmu hudby</description>
+    <description lang="cy">Delweddu syml yw Waveform sy'n dangos 2 Graff Ffurf Ton ar y sgrin. Un yr un ar gyfer y sianel de a chwith sy'n symud i guriad y gerddoriaeth</description>
+    <description lang="da">Waveform er en simpel visualisering, der viser 2 bølgeagtige grafer på skærmen. Én til den venstre og én til den højre kanal, der bevæger sig til musikkens rytme.</description>
+    <description lang="de">Waveform ist eine einfache Visualisierung, die zwei wellenförmige Grafiken zeigt. Je eine Grafik für den linken und rechten Kanal, die sich im Takt der Musik bewegen</description>
+    <description lang="el">Το Waveform είναι μία απλή Οπτικοποίηση του εμφανίζει 2 Κυματομορφές στην οθόνη, μία για το Αριστερό και μία για το Δεξί κανάλι οι οποίες κινούνται στο ρυθμό της μουσικής</description>
+    <description lang="en">Waveform is a simple Visualisation showing 2 Waveform Graphs on the screen, One each for Left and Right channels that move to the beat of the music</description>
+    <description lang="en_AU">Waveform is a simple Visualisation showing 2 Waveform Graphs on the screen, one each for Left and Right channels that move to the beat of the music</description>
+    <description lang="en_NZ">Waveform is a simple Visualisation showing 2 Waveform Graphs on the screen, One each for Left and Right channels that move to the beat of the music</description>
+    <description lang="en_US">Waveform is a simple Visualization showing 2 Waveform Graphs on the screen, One each for Left and Right channels that move to the beat of the music</description>
+    <description lang="es">Waveform es un sencillo visualizador que muestra 2 gráficos de ondas en la pantalla, uno para cada canal, derecho e izquierdo, que se mueven al ritmo de la música.</description>
+    <description lang="es_AR">Waveform es un sencillo visualizador que muestra 2 gráficos de ondas en la pantalla, uno para cada canal, derecho e izquierdo, que se mueven al ritmo de la música.</description>
+    <description lang="es_MX">Waveform es una Visualización simple que muestra 2 Gráficos de Forma de onda en la pantalla, uno para cada canal Izquierdo y Derecho que se mueven al ritmo de la música</description>
+    <description lang="et">Waveform on lihtne visuaal, ekraanil on 2 signaalikujulist graafikut - üks vasaku ja teine parema kanali jaoks, mis mõlemad liiguvad muusika rütmis.</description>
+    <description lang="fi">Waveform on kaksi aaltomuotograafia näyttävä yksinkertainen visualisointi. Toinen on vasemmalle ja toinen oikealle kanavalla ja ne liikkuvat musiikin tahdissa.</description>
+    <description lang="fr">Waveform est une visualisation simple affichant deux graphiques de forme d'onde à l'écran. Chaque forme d'onde représente une voie, gauche et droite, et réagit selon le rythme de la musique.</description>
+    <description lang="fr_CA">Waveform est une visualisation simple affichant deux graphiques de forme d'onde à l'écran. Chaque forme d'onde représente une voie, gauche et droite, et réagit selon le rythme de la musique.</description>
+    <description lang="gl">Waveform é unha Visualización simple que amosa 2 gráficos en forma de onde na súa pantalla, unha por cada lateral correspondente ás canles de audio da esquerda e da dereita que se move ó ritmo da música</description>
+    <description lang="he">Waveform הוא חיזוי פשוט המציג 2 גרפים בצורת גל על המסך, אחד לכל ערוץ שמאלי וימני הזז לפי קצב המוזיקה</description>
+    <description lang="hr">Waveform je jednostavna vizualizacija koja prikazuje 2 valna grafikona, po jedan za lijevi i desni kanal koji se pokreću u ritmu glazbe.</description>
+    <description lang="hu">A Waveform egy egyszerű vizualizáció, amely 2db hullámot mutat reprezentálva a bal és a jobb hangcsatornákat, melyek a zene ritmusára mozognak.</description>
+    <description lang="id">Waveform adalah visualisasi sederhana yang menunjukkan grafik dua gelombang pada layar, masing-masing untuk Satu saluran Kiri dan Kanan yang bergerak dengan ketukan musik</description>
+    <description lang="it">Waveform è un semplice visualizzatore che mostra 2 grafici di forma d'onda sullo schermo, uno per il canale destro e uno per quello sinistro, che si muovono a ritmo di musica</description>
+    <description lang="ja">Waveform は画面に2波形グラフを表示するシンプルなビジュアライザーです。音楽に合わせて、右チャンネル、左チャンネルの波形が表示されます。</description>
+    <description lang="ko">Waveform은 간단히 두개의 웨이브폼을 화면에 보여줍니다. 각각 왼쪽, 오른쪽 채널이고 음악의 비트에 따라 움직입니다.</description>
+    <description lang="lt">Waveform yra paprasta vizualizacija katra rodo dvi garso bangas ekrane. Viena banga vieno kanalo garsas.</description>
+    <description lang="lv">Waveform ir vienkārša vizualizācija, kas atēlo 2 viļņveida grafikus uz ekrāna, vienu - labajam, otru - kreisajam kanālam, kas kustās muzikas ritmā</description>
+    <description lang="mk">Бранови е едноставна визуализација која покажува 2 брановидни графови на екран, по еден за десниот и левиот канал од музиката</description>
+    <description lang="ms">Gelombang merupakan visual ringkas yang menunjukkan 2 graf gelombang, saluran kiri dan kanan yang bergerak mengikut rentak musik</description>
+    <description lang="nl">Waveform is een simpele muziekvisualisatie die twee golfvormen op het scherm toont, respectievelijk voor het linker- en rechtergeluidskanaal. De golfvormen bewegen mee met de beat van de muziek.</description>
+    <description lang="no">Waveform er en enkel visualisering. Waveform viser to bølgeformede grafer på skjermen som beveger seg i takt med musikken. En for venstre og en for høyre lydkanal.</description>
+    <description lang="pl">Waveform jest prostą wizualizacją pokazującą dwie fale dźwiękowe na ekranie. Każda na jeden kanał dźwięku.</description>
+    <description lang="pt">O Waveform é uma visualização simples que mostra 2 gráficos ondulantes no ecrã, um para cada canal estéreo. Estas ondas movem-se ao ritmo da música.</description>
+    <description lang="pt_BR">O Waveform é um visualizador simples que mostra 2 gráficos ondulantes na tela, um para cada canal estéreo</description>
+    <description lang="ro">Waveform este o vizualizare simplă care arată 2 grafice în formă de undă pe ecran, câte unul pentru fiecare canal stâng și drept și care se mișcă după bătăile muzicii.</description>
+    <description lang="ru">В этой визуализации отображаются 2 графика для левого и правого каналов, которые движутся в такт музыке</description>
+    <description lang="se">Waveform är en enkel visualisering som visar 2 vågformsgrafer på skärmen, en för vänster och en för höger kanal som rör sig i takt med musiken</description>
+    <description lang="sk">"Waveform" je jednoduchá vizualizácia zobrazujúca 2 grafy priebehu signálu pre pravý a ľavý kanál, pohybujúce sa v rytme hudby</description>
+    <description lang="sl">Waveform je preprosta vizualizacija, ki prikazuje valovni obliki zvoka iz levega in desnega kanala, ki sledita ritmu glasbe</description>
+    <description lang="sq">Valëzuesi është një Vizualizim i thjeshtë që shfaq 2 Grafikë Valëzues në ekran, nga Një për secilin kanal, të Majtë dhe të Djathtë, që lëvizin sipas ritmit të muzikës</description>
+    <description lang="sv">Waveform är en enkel visualisering som visar 2 vågformgrafer på skärmen, en vardera för vänster och höger kanal som rör sig i takt med musiken.</description>
+    <description lang="ta_IN">திரையில் 2 அலைவடிவம் வரைபடங்கள் காட்டப்படும், ஒன்று இடது புற சேனலுக்கும் மற்றொன்று வலதுபுற சேனலுக்கு உரியதாகும்.</description>
+    <description lang="tg">Waveform - визуализатсияи осонест, ки дар экран 2 нақши мавҷшаклро намоиш медиҳад, ду нақши алоҳида барои шабакаи чап ва рости ритми мусиқӣ</description>
+    <description lang="th">Waveform เป็นการแสดงผลภาพเวอร์ชวลไลเซชั่นพื้นฐานที่จะแสดงกราฟสัญญาณเสียง 2 กราฟบนหน้าจอ โดยเป็นกราฟสัญญาณเสียงซ้ายและขวาตามจังหวะของเพลง</description>
+    <description lang="tr">Dalgaformu, müzik vuruşlarına göre biri sol biri sağ kanal olmak üzere 2 dalga grafiğini ekranda gösteren görsel öğedir.</description>
+    <description lang="uk">Waveform є простою візуалізацією що показує 2 осцилограми на екрані. Кожна лінія відповідає своєму каналу і змінюється в такт з музикою.</description>
+    <description lang="vi">Waveform là một màn trình diễn đồ họa đơn giản hiển thị 2 đường sóng lên màn hình, Mỗi đường sóng sẽ đại diện cho một kênh tín hiệu loa trái hoặc phải di chuyển theo nhịp điệu của bài hát</description>
+    <description lang="zh">Waveform 是一个简单的可视化效果，它在屏幕上显示两个波形图，分别与音乐左右声道的节拍相呼应。</description>
+    <description lang="zh_TW">Waveform是一個簡單的可在屏幕上顯示2波形圖的視覺效果，左右聲道會跟著音樂節拍移動</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/visualization.waveform</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/fanart.png</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+    </assets>
+  </extension>
+</addon></addons>

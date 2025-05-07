@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="screensaver.crystalmorph"
+  version="1.0.0"
+  name="CrystalMorph"
+  provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1"/>
+  </requires>
+  <extension
+    point="xbmc.ui.screensaver"
+    library_xbox="CrystalMorph.xbs"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">CrystalMorph screensaver</summary>
+    <description lang="en">CrystalMorph is a 3D fractal that smoothly morphs between various shapes and configurations. A fractal's shape is defined by a set of transformations and (for a true fractal) the entire shape is repeated infinite times within it. Of course since the xbox doesn't have infinite memory, the rendering bottoms out after about 5 recursions.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.crystalmorph</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+  </extension>
+</addon>

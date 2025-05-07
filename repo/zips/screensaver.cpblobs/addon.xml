@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="screensaver.cpblobs"
+  version="1.0.0"
+  name="CpBlobs"
+  provider-name="Team XBMC">
+  <requires>
+    <c-pluff version="0.1"/>
+  </requires>
+  <extension
+    point="xbmc.ui.screensaver"
+    library_xbox="cpBlobs.xbs"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Metaballs moving around</summary>
+    <description lang="en">cpBlobs is a screensaver displaying metaballs moving around inside a cube.</description>
+    <platform>xbox</platform>
+    <license>GPL-2.0</license>
+    <source>https://github.com/xbmc4xbox/screensaver.cpblobs</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-03.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
