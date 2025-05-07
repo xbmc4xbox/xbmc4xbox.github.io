@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1">
+  <section id="addon" label="0" help="0">
+    <category id="main" label="128" help="0">
+      <group id="1" label="0">
+        <setting id="columns" type="integer" label="30000" help="30004">
+          <default>100</default>
+          <constraints>
+            <minimum>1</minimum>
+            <step>1</step>
+            <maximum>200</maximum>
+          </constraints>
+          <control type="slider" format="integer"/>
+        </setting>
+        <setting id="rows" type="integer" label="30001" help="30005">
+          <default>60</default>
+          <constraints>
+            <minimum>1</minimum>
+            <step>1</step>
+            <maximum>200</maximum>
+          </constraints>
+          <control type="slider" format="integer"/>
+        </setting>
+        <setting id="speed" type="integer" label="30002" help="30006">
+          <default>2</default>
+          <constraints>
+            <minimum>1</minimum>
+            <step>1</step>
+            <maximum>5</maximum>
+          </constraints>
+          <control type="spinner" format="string">
+            <formatlabel>30003</formatlabel>
+          </control>
+        </setting>
+      </group>
+    </category>
+    <category id="colors" label="30010" help="0">
+      <group id="2" label="30011">
+        <setting id="rain-red" type="integer" label="30012" help="30013">
+          <default>0</default>
+          <control type="slider" format="percentage" range="0,100" />
+        </setting>
+        <setting id="rain-green" type="integer" label="30014" help="30015">
+          <default>100</default>
+          <control type="slider" format="percentage" range="0,100" />
+        </setting>
+        <setting id="rain-blue" type="integer" label="30016" help="30017">
+          <default>0</default>
+          <control type="slider" format="percentage" range="0,100" />
+        </setting>
+      </group>
+      <group id="3" label="30018">
+        <setting id="event-red" type="integer" label="30019" help="30020">
+          <default>80</default>
+          <control type="slider" format="percentage" range="0,100" />
+        </setting>
+        <setting id="event-green" type="integer" label="30021" help="30022">
+          <default>100</default>
+          <control type="slider" format="percentage" range="0,100" />
+        </setting>
+        <setting id="event-blue" type="integer" label="30023" help="30024">
+          <default>90</default>
+          <control type="slider" format="percentage" range="0,100" />
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>

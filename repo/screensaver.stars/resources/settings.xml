@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1">
+  <section id="addon" label="0" help="0">
+    <category id="main" label="128" help="0">
+      <group id="1" label="0">
+        <setting id="numstars" type="integer" label="30000" help="0">
+          <default>8000</default>
+          <constraints>
+            <minimum>1000</minimum>
+            <step>1000</step>
+            <maximum>20000</maximum>
+          </constraints>
+          <control type="slider" format="integer"/>
+        </setting>
+        <setting id="gamma" type="number" label="30001" help="0">
+          <default>1.0</default>
+          <constraints>
+            <minimum>0.01</minimum>
+            <step>0.01</step>
+            <maximum>2.0</maximum>
+          </constraints>
+          <control type="slider" format="number"/>
+        </setting>
+        <setting id="brightness" type="number" label="30002" help="0">
+          <default>0.2</default>
+          <constraints>
+            <minimum>0.01</minimum>
+            <step>0.01</step>
+            <maximum>1.0</maximum>
+          </constraints>
+          <control type="slider" format="number"/>
+        </setting>
+        <setting id="speed" type="number" label="30003" help="0">
+          <default>20.0</default>
+          <constraints>
+            <minimum>1.0</minimum>
+            <step>0.1</step>
+            <maximum>50.0</maximum>
+          </constraints>
+          <control type="slider" format="number"/>
+        </setting>
+        <setting id="zoom" type="number" label="30004" help="0">
+          <default>1.0</default>
+          <constraints>
+            <minimum>0.1</minimum>
+            <step>0.1</step>
+            <maximum>10.0</maximum>
+          </constraints>
+          <control type="slider" format="number"/>
+        </setting>
+        <setting id="expanse" type="number" label="30005" help="0">
+          <default>1.5</default>
+          <constraints>
+            <minimum>0.1</minimum>
+            <step>0.1</step>
+            <maximum>10.0</maximum>
+          </constraints>
+          <control type="slider" format="number"/>
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>
+

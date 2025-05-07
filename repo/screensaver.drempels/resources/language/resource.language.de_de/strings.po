@@ -1,0 +1,148 @@
+# Kodi Media Center language file
+# Addon Name: Drempels
+# Addon id: screensaver.rsxs.drempels
+# Addon Provider: Team Kodi
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI Main\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2023-02-04 22:15+0000\n"
+"Last-Translator: Demian <Demian@gmx.co.uk>\n"
+"Language-Team: German <https://kodi.weblate.cloud/projects/kodi-add-ons-look-and-feel/screensaver-rsxs-drempels/de_de/>\n"
+"Language: de_de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.2\n"
+
+msgctxt "Addon Summary"
+msgid "About as psychedelic as screensavers get"
+msgstr "So psychedelisch wie ein Bildschirmschoner nur sein kann"
+
+msgctxt "Addon Description"
+msgid "This is about as psychedelic as screensavers get. mogumbo thought his Plasma saver was at the top of the scale, but this one is even more nauseating. You'd better find one of those air sickness bags before you stare at this one for too long."
+msgstr "In etwa so psychedelisch wie ein Bildschirmschoner nur sein kann. mogumbo dachte, sein Plasma-Bildschirmschoner wäre bereits abstoßend, aber dieser hier ist noch verabscheuenswürdiger. Besser schon mal einen Kotzbeutel suchen, bevor man diesen Bildschirmschoner zu lange anstarrt."
+
+msgctxt "Addon Disclaimer"
+msgid "This is an implementation based on \"rss-glx\" screensaver"
+msgstr "Diese Implementierung basiert auf dem „rss-glx“-Bildschirmschoner"
+
+# [Consistency] Make terms, settings names, brands and other minutiae, consistent throughout file.
+# [Capitalization] Avoid capitalizing every second word. See http://grammarist.com/capitalization/
+# For example, prefer wording as "This new string" instead of "This New String".
+# [Referencing] If a suitable string already exists, reuse it, making a note of where it's used!
+# [Description / location] For example, "#. Description of some setting" used on "#: xbmc/addons/guidialogaddoninfo.cpp"
+# When writing a description or setting, refer to a setting name in quotes. See existing entries for guidance.
+# For example, "Press \"OK\" for \"All seasons\"" instead of "Press OK for All seasons" after first word.
+# Following strings used for addon settings dialog
+#. Main category name on addon settings dialog
+msgctxt "#30000"
+msgid "General"
+msgstr "Allgemein"
+
+#. Spinner to select number blurring
+msgctxt "#30001"
+msgid "Blur"
+msgstr "Unschärfe"
+
+#. Help text of number selection for blurring
+msgctxt "#30002"
+msgid "Blurring between frames"
+msgstr "Unschärfe zwischen Bildern"
+
+#. Spinner to select render speed
+msgctxt "#30003"
+msgid "Speed"
+msgstr "Geschwindigkeit"
+
+#. Setting help text for select render speed
+msgctxt "#30004"
+msgid "Speed of flow, bigger is faster"
+msgstr "Fließgeschwindigkeit, größer ist schneller"
+
+#. Spinner to select scale factor
+msgctxt "#30005"
+msgid "Scale"
+msgstr "Skala"
+
+#. Help for scale factor selection
+msgctxt "#30006"
+msgid "Scale of flow, bigger is zoomed in"
+msgstr "Größe der Strömung, größer ist herangezoomt"
+
+#. Spinner to select number of cells
+msgctxt "#30007"
+msgid "Cells"
+msgstr "Zellen"
+
+#. Help for number of cells selection
+msgctxt "#30008"
+msgid "Number of cells (i.e. control points) in width/height in powers of two"
+msgstr "Anzahl der Zellen (d. h. der Kontrollpunkte) in Breite/Höhe in Zweierpotenzen"
+
+#. Spinner to select cell resolution
+msgctxt "#30009"
+msgid "Cell Resolution"
+msgstr "Zellauflösungen"
+
+#. Help for cell resolution selection
+msgctxt "#30010"
+msgid "Resolution of each cell in powers of two.  4 - 8"
+msgstr "Auflösung der einzelnen Zellen in Zweierpotenzen.  4 – 8"
+
+#. Boolean value to use images instead
+msgctxt "#30011"
+msgid "Use Images"
+msgstr "Bilder verwenden"
+
+#. Help for boolean to allow use of images
+msgctxt "#30012"
+msgid "Cycle through the images"
+msgstr "Durch die Bilder wechseln"
+
+#. To open dialog for folder selection of images
+msgctxt "#30013"
+msgid "Images (when empty, Kodi fanart images are used)"
+msgstr "Bilder (falls leer, werden Kodi-Fanartbilder verwendet)"
+
+#. Help to folder selection
+msgctxt "#30014"
+msgid "Select the folder from which the images will be used"
+msgstr "Den Ordner auswählen, aus dem die Bilder verwendet werden sollen"
+
+#. Folder selection dialog header
+msgctxt "#30015"
+msgid "Folder from which the images will be used"
+msgstr "Ordner, aus dem die Bilder verwendet werden sollen"
+
+#. Slider for texture change intervall in seconds
+msgctxt "#30016"
+msgid "Texture interval (s)"
+msgstr "Texturintervall (s)"
+
+#. Help to texture interval
+msgctxt "#30017"
+msgid "Seconds to dwell on each texture"
+msgstr "Sekunden, um auf jeder Textur zu verweilen"
+
+#. Slider for texture fade intervall in 1/10 (shown as comma e.g. 0.1)
+msgctxt "#30018"
+msgid "Texture fade interval (s)"
+msgstr "Überblendintervall der Textur (s)"
+
+#. Help to texture fade intervall in 1/10 (shown as comma e.g. 0.1)
+msgctxt "#30019"
+msgid "Fade time between subsequent textures, in tenths of second"
+msgstr "Überblendzeit zwischen aufeinanderfolgenden Texturen, in Zehntelsekunden"
+
+#. Spinner to select generated texture size
+msgctxt "#30020"
+msgid "Generated texture size"
+msgstr "Erzeugte Texturgröße"
+
+#. Help to generated texture size
+msgctxt "#30021"
+msgid "Resolution of randomly generated textures, in powers of two"
+msgstr "Auflösung der zufällig erzeugten Texturen, in Zweierpotenzen"
