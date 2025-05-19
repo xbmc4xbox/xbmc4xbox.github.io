@@ -1,0 +1,57 @@
+[submodule "repo/webinterface.project.mayhem"]
+	path = repo/webinterface.project.mayhem
+	url = https://github.com/xbmc4xbox/webinterface.project.mayhem.git
+[submodule "repo/webinterface.project.mayhem3"]
+	path = repo/webinterface.project.mayhem3
+	url = https://github.com/xbmc4xbox/webinterface.project.mayhem3.git
+[submodule "repo/webinterface.xbmciphone"]
+	path = repo/webinterface.xbmciphone
+	url = https://github.com/xbmc4xbox/webinterface.xbmciphone.git
+[submodule "repo/script.module.beautifulsoup4"]
+	path = repo/script.module.beautifulsoup4
+	url = https://github.com/xbmc4xbox/script.module.beautifulsoup4.git
+[submodule "repo/script.module.xbmcswift2"]
+	path = repo/script.module.xbmcswift2
+	url = https://github.com/xbmc4xbox/script.module.xbmcswift2.git
+[submodule "repo/script.module.certifi"]
+	path = repo/script.module.certifi
+	url = https://github.com/xbmc4xbox/script.module.certifi.git
+[submodule "repo/script.module.chardet"]
+	path = repo/script.module.chardet
+	url = https://github.com/xbmc4xbox/script.module.chardet.git
+[submodule "repo/script.module.idna"]
+	path = repo/script.module.idna
+	url = https://github.com/xbmc4xbox/script.module.idna.git
+[submodule "repo/script.module.urllib3"]
+	path = repo/script.module.urllib3
+	url = https://github.com/xbmc4xbox/script.module.urllib3.git
+[submodule "repo/script.module.future"]
+	path = repo/script.module.future
+	url = https://github.com/xbmc4xbox/script.module.future.git
+[submodule "repo/script.module.requests"]
+	path = repo/script.module.requests
+	url = https://github.com/xbmc4xbox/script.module.requests.git
+[submodule "repo/script.module.simpleplugin3"]
+	path = repo/script.module.simpleplugin3
+	url = https://github.com/xbmc4xbox/script.module.simpleplugin3.git
+[submodule "repo/script.module.simplejson"]
+	path = repo/script.module.simplejson
+	url = https://github.com/xbmc4xbox/script.module.simplejson.git
+[submodule "repo/script.module.xmltodict"]
+	path = repo/script.module.xmltodict
+	url = https://github.com/xbmc4xbox/script.module.xmltodict.git
+[submodule "repo/weather.gismeteo"]
+	path = repo/weather.gismeteo
+	url = https://github.com/xbmc4xbox/weather.gismeteo.git
+[submodule "repo/plugin.audio.shoutcast"]
+	path = repo/plugin.audio.shoutcast
+	url = https://github.com/xbmc4xbox/plugin.audio.shoutcast.git
+[submodule "repo/script.module.requests.lite"]
+	path = repo/script.module.requests.lite
+	url = https://github.com/xbmc4xbox/script.module.requests.lite.git
+[submodule "repo/plugin.audio.fmstream"]
+	path = repo/plugin.audio.fmstream
+	url = https://github.com/antonic901/plugin.audio.fmstream.git
+[submodule "repo/plugin.video.invidious"]
+	path = repo/plugin.video.invidious
+	url = https://github.com/antonic901/plugin.video.invidious.git
