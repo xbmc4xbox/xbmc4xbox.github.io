@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="webinterface.project.mayhem3"
+  version="1.0.0"
+  name="XBMC web interface - Project Mayhem III"
+  provider-name="Team XBMC">
+  <requires>
+    <import addon="xbmc.gui" version="5.12.0"/>
+  </requires>
+  <extension point="xbmc.webinterface"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Project Mayhem III web interface</summary>
+    <description lang="en">Browse and interact with your Music, Movies, TV Shows and more via a web browser. Stream music and videos to your browser. Edit and manage your XBMC media library.</description>
+    <platform>xbox</platform>
+    <language>en</language>
+    <source>https://github.com/xbmc4xbox/webinterface.project.mayhem3</source>
+    <forum>-</forum>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+      <screenshot>resources/screenshot-01.png</screenshot>
+      <screenshot>resources/screenshot-02.png</screenshot>
+      <screenshot>resources/screenshot-03.png</screenshot>
+    </assets>
+  </extension>
+</addon>
