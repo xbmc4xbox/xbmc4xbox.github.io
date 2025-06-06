@@ -2,7 +2,7 @@
 <addon
   id="screensaver.planestate"
   version="1.0.0"
-  name="Ping Pong"
+  name="Planestate"
   provider-name="Team XBMC">
   <requires>
     <c-pluff version="0.1"/>

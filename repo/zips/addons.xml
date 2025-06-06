@@ -345,7 +345,7 @@ Asteron: This code is adapted from a project I did for a graphics course in 2000
       <screenshot>resources/screenshot-03.png</screenshot>
     </assets>
   </extension>
-</addon><addon id="screensaver.planestate" version="1.0.0" name="Ping Pong" provider-name="Team XBMC">
+</addon><addon id="screensaver.planestate" version="1.0.0" name="Planestate" provider-name="Team XBMC">
   <requires>
     <c-pluff version="0.1" />
   </requires>
