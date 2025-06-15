@@ -55,3 +55,6 @@
 [submodule "repo/plugin.video.invidious"]
 	path = repo/plugin.video.invidious
 	url = https://github.com/antonic901/plugin.video.invidious.git
+[submodule "repo/service.subtitles.opensubtitles"]
+	path = repo/service.subtitles.opensubtitles
+	url = https://github.com/xbmc4xbox/service.subtitles.opensubtitles.git
