@@ -58,3 +58,6 @@
 [submodule "repo/service.subtitles.opensubtitles"]
 	path = repo/service.subtitles.opensubtitles
 	url = https://github.com/xbmc4xbox/service.subtitles.opensubtitles.git
+[submodule "repo/metadata.programs.nekoScraper"]
+	path = repo/metadata.programs.nekoScraper
+	url = https://github.com/faithvoid/metadata.programs.nekoScraper.git
