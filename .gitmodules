@@ -61,3 +61,24 @@
 [submodule "repo/metadata.programs.nekoScraper"]
 	path = repo/metadata.programs.nekoScraper
 	url = https://github.com/faithvoid/metadata.programs.nekoScraper.git
+[submodule "repo/script.module.six"]
+	path = repo/script.module.six
+	url = https://github.com/xbmc4xbox/script.module.six.git
+[submodule "repo/script.module.websocket"]
+	path = repo/script.module.websocket
+	url = https://github.com/xbmc4xbox/script.module.websocket.git
+[submodule "repo/script.module.kodi-six"]
+	path = repo/script.module.kodi-six
+	url = https://github.com/xbmc4xbox/script.module.kodi-six.git
+[submodule "repo/script.module.futures"]
+	path = repo/script.module.futures
+	url = https://github.com/xbmc4xbox/script.module.futures.git
+[submodule "repo/script.module.dateutil"]
+	path = repo/script.module.dateutil
+	url = https://github.com/xbmc4xbox/script.module.dateutil.git
+[submodule "repo/script.module.addon.signals"]
+	path = repo/script.module.addon.signals
+	url = https://github.com/xbmc4xbox/script.module.addon.signals.git
+[submodule "repo/plugin.video.jellycon"]
+	path = repo/plugin.video.jellycon
+	url = https://github.com/xbmc4xbox/plugin.video.jellycon.git
