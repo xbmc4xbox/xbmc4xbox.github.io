@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.xbeinfo" name="XBE Info" version="1.0.0" provider-name="Rocky5">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0" />
+    <import addon="script.module.limpp" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>xbox</platform>
+    <summary lang="en_GB">Extract info from an XBE file.</summary>
+    <description lang="en_GB">Used to extract the image from the XBE file. Inspiration took from: https://github.com/LoveMHz/XBEpy</description>
+    <license>BSD</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>

@@ -626,6 +626,21 @@ Asteron: This code is adapted from a project I did for a graphics course in 2000
     <news>0.1.3:
 - Fix non-UTF-8 byte string decoding in Python 2.</news>
   </extension>
+</addon><addon id="script.module.limpp" name="L.I.M.P.P." version="1.0.0" provider-name="ruuk">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Library of Image Manipulation in Pure Python</summary>
+    <description lang="en_GB">Pure python method to handle various icon formats in a script for XBMC on Xbox. Reads PNG, BMP, JPG, ICO, TGA, XPM, XBM and DXTC textures. Writes in PNG, BMP, TGA, XPM and XBM.</description>
+    <license>BSD</license>
+    <platform>xbox</platform>
+    <source>https://github.com/ruuk/limpp</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon><addon id="script.module.requests" name="requests" version="2.27.1" provider-name="Python Software Foundation">
   <requires>
     <import addon="xbmc.python" version="2.25.0" />
@@ -742,6 +757,21 @@ Asteron: This code is adapted from a project I did for a graphics course in 2000
       <icon>resources/icon.png</icon>
     </assets>
   </extension>
+</addon><addon id="script.module.xbeinfo" name="XBE Info" version="1.0.0" provider-name="Rocky5">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0" />
+    <import addon="script.module.limpp" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>xbox</platform>
+    <summary lang="en_GB">Extract info from an XBE file.</summary>
+    <description lang="en_GB">Used to extract the image from the XBE file. Inspiration took from: https://github.com/LoveMHz/XBEpy</description>
+    <license>BSD</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon><addon id="script.module.xbmcswift2" name="xbmcswift2" provider-name="Jonathan Beluch (jbel), enen92" version="13.0.4">
   <requires>
     <import addon="xbmc.python" version="2.14.0" />
@@ -769,6 +799,25 @@ Asteron: This code is adapted from a project I did for a graphics course in 2000
         <source>https://github.com/martinblech/xmltodict</source>
         <forum />
     </extension>
+</addon><addon id="script.program.xiso.installer" name="XISO to HDD Installer" version="1.0.0" provider-name="Rocky5">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0" />
+    <import addon="script.module.xbeinfo" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>xbox</platform>
+    <summary lang="en_GB">Prepare XISO so it can be launched on Xbox.</summary>
+    <description lang="en_GB">Used to prepare a XISO so it can be played from the Xbox HDD. It also extracts images and the xbe header so trainers work.</description>
+    <disclaimer lang="en_GB">Original script by headphone</disclaimer>
+    <language>en_GB</language>
+    <license>GPL-2.0-only</license>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
 </addon><addon id="service.subtitles.opensubtitles" name="OpenSubtitles.org" version="5.0.16" provider-name="amet, opensubtitles">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
