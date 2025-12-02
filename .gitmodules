@@ -82,3 +82,12 @@
 [submodule "repo/plugin.video.jellycon"]
 	path = repo/plugin.video.jellycon
 	url = https://github.com/xbmc4xbox/plugin.video.jellycon.git
+[submodule "repo/script.module.limpp"]
+	path = repo/script.module.limpp
+	url = https://github.com/xbmc4xbox/script.module.limpp.git
+[submodule "repo/script.module.xbeinfo"]
+	path = repo/script.module.xbeinfo
+	url = https://github.com/xbmc4xbox/script.module.xbeinfo.git
+[submodule "repo/script.program.xiso.installer"]
+	path = repo/script.program.xiso.installer
+	url = https://github.com/xbmc4xbox/script.program.xiso.installer.git
