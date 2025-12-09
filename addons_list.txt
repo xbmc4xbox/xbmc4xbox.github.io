@@ -16,3 +16,4 @@ https://github.com/xbmc4xbox/visualization.g-force/releases/download/1.0.0/visua
 https://github.com/xbmc4xbox/visualization.goom/releases/download/1.0.0/visualization.goom-1.0.0.zip
 https://github.com/xbmc4xbox/visualization.milkdrop/releases/download/1.0.0/visualization.milkdrop-1.0.0.zip
 https://github.com/xbmc4xbox/visualization.waveform/releases/download/1.0.0/visualization.waveform-1.0.0.zip
+https://github.com/xbmc4xbox/skin.confluence/releases/download/3.1.5/skin.confluence-3.1.5.zip
