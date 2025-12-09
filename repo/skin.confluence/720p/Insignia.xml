@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="2700">
+	<controls>
+		<include>CommonBackground</include>
+		<control type="label" id="9">
+			<left>20</left>
+			<top>20</top>
+			<width>1082</width>
+			<height>64</height>
+			<label>Registered Users: $INFO[Insignia.RegisteredUsers] Online Users: $INFO[Insignia.OnlineUsers] Games Supported: $INFO[Insignia.GamesSupported]</label>
+			<aligny>center</aligny>
+			<visible>Insignia.IsFetched</visible>
+		</control>
+		<control type="label" id="10">
+			<left>20</left>
+			<top>20</top>
+			<width>1082</width>
+			<height>64</height>
+			<label>15301</label>
+			<aligny>center</aligny>
+			<visible>!Insignia.IsFetched</visible>
+		</control>
+		<control type="image" id="11">
+			<left>1112</left>
+			<top>20</top>
+			<width>64</width>
+			<height>64</height>
+			<texture>insignia/logo.png</texture>
+		</control>
+		<control type="image" id="12">
+			<left>1196</left>
+			<top>20</top>
+			<width>64</width>
+			<height>64</height>
+			<texture>insignia/notify.png</texture>
+		</control>
+		<control type="panel" id="5000">
+			<left>0</left>
+			<top>104</top>
+			<visible allowhiddenfocus="true">Insignia.IsFetched</visible>
+			<itemlayout width="1260" height="150">
+				<control type="group">
+					<left>10</left>
+					<top>10</top>
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>1260</width>
+						<height>140</height>
+						<texture>ContentPanel.png</texture>
+					</control>
+					<control type="image">
+						<description>game icon</description>
+						<left>15</left>
+						<top>10</top>
+						<width>120</width>
+						<height>120</height>
+						<texture>$INFO[ListItem.Icon]</texture>
+					</control>
+					<control type="group">
+						<description>game info</description>
+						<left>200</left>
+						<top>10</top>
+						<width>280</width>
+						<control type="label">
+							<left>0</left>
+							<top>0</top>
+							<width>280</width>
+							<height>40</height>
+							<align>left</align>
+							<scroll>true</scroll>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+						<control type="label">
+							<left>0</left>
+							<top>40</top>
+							<width>280</width>
+							<height>40</height>
+							<align>left</align>
+							<scroll>true</scroll>
+							<label>$INFO[ListItem.Property(serial)]</label>
+						</control>
+						<control type="label">
+							<left>0</left>
+							<top>80</top>
+							<width>280</width>
+							<height>40</height>
+							<align>left</align>
+							<scroll>true</scroll>
+							<label>$INFO[ListItem.Property(code)]</label>
+						</control>
+					</control>
+					<control type="group">
+						<description>online users</description>
+						<left>550</left>
+						<top>30</top>
+						<control type="label">
+							<left>0</left>
+							<top>0</top>
+							<width>140</width>
+							<height>40</height>
+							<align>center</align>
+							<label>Online Users</label>
+						</control>
+						<control type="label">
+							<left>0</left>
+							<top>40</top>
+							<width>140</width>
+							<height>40</height>
+							<align>center</align>
+							<label>$INFO[ListItem.Property(online_users)]</label>
+						</control>
+					</control>
+					<control type="group">
+						<description>active users</description>
+						<left>720</left>
+						<top>30</top>
+						<control type="label">
+							<left>0</left>
+							<top>0</top>
+							<width>140</width>
+							<height>40</height>
+							<align>center</align>
+							<label>Active Users</label>
+						</control>
+						<control type="label">
+							<left>0</left>
+							<top>40</top>
+							<width>140</width>
+							<height>40</height>
+							<align>center</align>
+							<label>$INFO[ListItem.Property(active_users)]</label>
+						</control>
+					</control>
+					<control type="group">
+						<description>active sessions</description>
+						<left>890</left>
+						<top>30</top>
+						<control type="label">
+							<left>0</left>
+							<top>0</top>
+							<width>180</width>
+							<height>40</height>
+							<align>center</align>
+							<label>Active Sessions</label>
+						</control>
+						<control type="label">
+							<left>0</left>
+							<top>40</top>
+							<width>180</width>
+							<height>40</height>
+							<align>center</align>
+							<label>$INFO[ListItem.Property(active_sessions)]</label>
+						</control>
+					</control>
+					<control type="group">
+						<decription>game live features</decription>
+						<left>1214</left>
+						<top>0</top>
+						<width>50</width>
+						<height>140</height>
+						<control type="image">
+							<left>0</left>
+							<top>4</top>
+							<width>30</width>
+							<height>30</height>
+							<texture>insignia/person.png</texture>
+							<visible>ListItem.Property(has_live_aware_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>4</top>
+							<width>30</width>
+							<height>30</height>
+							<texture colordiffuse="grey3">insignia/person.png</texture>
+							<visible>!ListItem.Property(has_live_aware_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>34</top>
+							<width>30</width>
+							<height>30</height>
+							<texture>insignia/language.png</texture>
+							<visible>ListItem.Property(has_matchmaking_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>34</top>
+							<width>30</width>
+							<height>30</height>
+							<texture colordiffuse="grey3">insignia/language.png</texture>
+							<visible>!ListItem.Property(has_matchmaking_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>68</top>
+							<width>30</width>
+							<height>30</height>
+							<texture>insignia/leaderboard.png</texture>
+							<visible>ListItem.Property(has_leaderboards_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>68</top>
+							<width>30</width>
+							<height>30</height>
+							<texture colordiffuse="grey3">insignia/leaderboard.png</texture>
+							<visible>!ListItem.Property(has_leaderboards_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>102</top>
+							<width>30</width>
+							<height>30</height>
+							<texture>insignia/extension.png</texture>
+							<visible>ListItem.Property(has_user_generated_content_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>102</top>
+							<width>30</width>
+							<height>30</height>
+							<texture colordiffuse="grey3">insignia/extension.png</texture>
+							<visible>!ListItem.Property(has_user_generated_content_feature)</visible>
+						</control>
+					</control>
+				</control>
+			</itemlayout>
+			<focusedlayout width="1260" height="150">
+				<control type="group">
+					<left>10</left>
+					<top>10</top>
+					<control type="image">
+						<left>0</left>
+						<top>0</top>
+						<width>1260</width>
+						<height>140</height>
+						<texture border="5">button-focus2.png</texture>
+					</control>
+					<control type="image">
+						<description>game icon</description>
+						<left>15</left>
+						<top>10</top>
+						<width>120</width>
+						<height>120</height>
+						<texture>$INFO[ListItem.Icon]</texture>
+					</control>
+					<control type="group">
+						<description>game info</description>
+						<left>200</left>
+						<top>10</top>
+						<width>280</width>
+						<control type="label">
+							<left>0</left>
+							<top>0</top>
+							<width>280</width>
+							<height>40</height>
+							<align>left</align>
+							<scroll>true</scroll>
+							<label>$INFO[ListItem.Label]</label>
+						</control>
+						<control type="label">
+							<left>0</left>
+							<top>40</top>
+							<width>280</width>
+							<height>40</height>
+							<align>left</align>
+							<scroll>true</scroll>
+							<label>$INFO[ListItem.Property(serial)]</label>
+						</control>
+						<control type="label">
+							<left>0</left>
+							<top>80</top>
+							<width>280</width>
+							<height>40</height>
+							<align>left</align>
+							<scroll>true</scroll>
+							<label>$INFO[ListItem.Property(code)]</label>
+						</control>
+					</control>
+					<control type="group">
+						<description>online users</description>
+						<left>550</left>
+						<top>30</top>
+						<control type="label">
+							<left>0</left>
+							<top>0</top>
+							<width>140</width>
+							<height>40</height>
+							<align>center</align>
+							<label>Online Users</label>
+						</control>
+						<control type="label">
+							<left>0</left>
+							<top>40</top>
+							<width>140</width>
+							<height>40</height>
+							<align>center</align>
+							<label>$INFO[ListItem.Property(online_users)]</label>
+						</control>
+					</control>
+					<control type="group">
+						<description>active users</description>
+						<left>720</left>
+						<top>30</top>
+						<control type="label">
+							<left>0</left>
+							<top>0</top>
+							<width>140</width>
+							<height>40</height>
+							<align>center</align>
+							<label>Active Users</label>
+						</control>
+						<control type="label">
+							<left>0</left>
+							<top>40</top>
+							<width>140</width>
+							<height>40</height>
+							<align>center</align>
+							<label>$INFO[ListItem.Property(active_users)]</label>
+						</control>
+					</control>
+					<control type="group">
+						<description>active sessions</description>
+						<left>890</left>
+						<top>30</top>
+						<control type="label">
+							<left>0</left>
+							<top>0</top>
+							<width>180</width>
+							<height>40</height>
+							<align>center</align>
+							<label>Active Sessions</label>
+						</control>
+						<control type="label">
+							<left>0</left>
+							<top>40</top>
+							<width>180</width>
+							<height>40</height>
+							<align>center</align>
+							<label>$INFO[ListItem.Property(active_sessions)]</label>
+						</control>
+					</control>
+					<control type="group">
+						<decription>game live features</decription>
+						<left>1214</left>
+						<top>0</top>
+						<width>50</width>
+						<height>140</height>
+						<control type="image">
+							<left>0</left>
+							<top>4</top>
+							<width>30</width>
+							<height>30</height>
+							<texture>insignia/person.png</texture>
+							<visible>ListItem.Property(has_live_aware_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>4</top>
+							<width>30</width>
+							<height>30</height>
+							<texture colordiffuse="grey3">insignia/person.png</texture>
+							<visible>!ListItem.Property(has_live_aware_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>34</top>
+							<width>30</width>
+							<height>30</height>
+							<texture>insignia/language.png</texture>
+							<visible>ListItem.Property(has_matchmaking_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>34</top>
+							<width>30</width>
+							<height>30</height>
+							<texture colordiffuse="grey3">insignia/language.png</texture>
+							<visible>!ListItem.Property(has_matchmaking_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>68</top>
+							<width>30</width>
+							<height>30</height>
+							<texture>insignia/leaderboard.png</texture>
+							<visible>ListItem.Property(has_leaderboards_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>68</top>
+							<width>30</width>
+							<height>30</height>
+							<texture colordiffuse="grey3">insignia/leaderboard.png</texture>
+							<visible>!ListItem.Property(has_leaderboards_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>102</top>
+							<width>30</width>
+							<height>30</height>
+							<texture>insignia/extension.png</texture>
+							<visible>ListItem.Property(has_user_generated_content_feature)</visible>
+						</control>
+						<control type="image">
+							<left>0</left>
+							<top>102</top>
+							<width>30</width>
+							<height>30</height>
+							<texture colordiffuse="grey3">insignia/extension.png</texture>
+							<visible>!ListItem.Property(has_user_generated_content_feature)</visible>
+						</control>
+					</control>
+				</control>
+			</focusedlayout>
+		</control>
+	</controls>
+</window>
