@@ -91,3 +91,9 @@
 [submodule "repo/script.program.xiso.installer"]
 	path = repo/script.program.xiso.installer
 	url = https://github.com/xbmc4xbox/script.program.xiso.installer.git
+[submodule "repo/script.module.defusedxml"]
+	path = repo/script.module.defusedxml
+	url = https://github.com/xbmc4xbox/script.module.defusedxml.git
+[submodule "repo/script.keymap"]
+	path = repo/script.keymap
+	url = https://github.com/xbmc4xbox/script.keymap.git
