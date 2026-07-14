@@ -1000,7 +1000,7 @@ v5.0.15 (2016-11-26) by amet
       <screenshot>resources/screenshot-05.jpg</screenshot>
     </assets>
   </extension>
-</addon><addon id="visualization.milkdrop" version="1.0.0" name="MilkDrop" provider-name="Team XBMC">
+</addon><addon id="visualization.milkdrop" version="1.0.1" name="MilkDrop" provider-name="Team XBMC">
   <requires>
     <c-pluff version="0.1" />
   </requires>
